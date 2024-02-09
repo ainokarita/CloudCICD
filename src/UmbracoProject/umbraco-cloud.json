@@ -6,6 +6,12 @@
       "Id": "a7d6eb0f-f6f2-4a13-bbb5-ad50d58e6ff1",
       "Workspaces": [
         {
+          "Id": "8de4946b-4e6c-40f2-ab43-cf84a903c139",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-karita-cloud.euwest01.umbraco.io"
+        },
+        {
           "Id": "6f577b17-baa4-426c-850b-11587db9db0f",
           "Name": "Live",
           "Type": "live",
