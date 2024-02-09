@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "karita cloud",
+      "Alias": "karita-cloud",
+      "Id": "a7d6eb0f-f6f2-4a13-bbb5-ad50d58e6ff1",
+      "Workspaces": [
+        {
+          "Id": "6f577b17-baa4-426c-850b-11587db9db0f",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://karita-cloud.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
