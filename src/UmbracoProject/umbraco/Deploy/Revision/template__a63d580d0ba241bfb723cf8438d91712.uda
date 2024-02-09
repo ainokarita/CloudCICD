@@ -1,0 +1,14 @@
+{
+  "Name": "Blog",
+  "Alias": "Blog",
+  "File": "umb://template-file/Blog.cshtml",
+  "Udi": "umb://template/a63d580d0ba241bfb723cf8438d91712",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Blog.cshtml",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "13.0.3"
+}
