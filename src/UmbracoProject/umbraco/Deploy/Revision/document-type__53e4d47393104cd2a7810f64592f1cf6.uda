@@ -6,7 +6,7 @@
     "umb://template/a63d580d0ba241bfb723cf8438d91712"
   ],
   "HistoryCleanup": {},
-  "Icon": "icon-document",
+  "Icon": "icon-book color-black",
   "Thumbnail": "folder.png",
   "Permissions": {
     "AllowedChildContentTypes": []
@@ -22,8 +22,7 @@
           "Key": "60d194e6-4ea9-44c9-950f-b13955222bb1",
           "Alias": "categories",
           "DataType": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
-          "Name": "Categories",
-          "SortOrder": 2
+          "Name": "Categories"
         },
         {
           "Key": "bc739c5b-9a5b-46e1-a070-4294ed343456",
@@ -35,8 +34,7 @@
           "Key": "dba40019-da28-4680-b867-0c09bb9244be",
           "Alias": "bodyText",
           "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
-          "Name": "Body Text",
-          "SortOrder": 1
+          "Name": "Body Text"
         }
       ]
     }
