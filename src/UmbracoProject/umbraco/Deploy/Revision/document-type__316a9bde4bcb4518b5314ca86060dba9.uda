@@ -8,6 +8,7 @@
   "HistoryCleanup": {},
   "Icon": "icon-folder color-black",
   "Thumbnail": "folder.png",
+  "IsContainer": true,
   "Permissions": {
     "AllowedChildContentTypes": []
   },
