@@ -12,10 +12,50 @@
     "AllowedChildContentTypes": []
   },
   "CompositionContentTypes": [],
-  "PropertyGroups": [],
+  "PropertyGroups": [
+    {
+      "Key": "a27b0ddd-3774-420e-8723-befd257ab924",
+      "Name": "Content",
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "60d194e6-4ea9-44c9-950f-b13955222bb1",
+          "Alias": "categories",
+          "DataType": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+          "Name": "Categories",
+          "SortOrder": 2
+        },
+        {
+          "Key": "bc739c5b-9a5b-46e1-a070-4294ed343456",
+          "Alias": "summary",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Name": "Summary"
+        },
+        {
+          "Key": "dba40019-da28-4680-b867-0c09bb9244be",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Name": "Body Text",
+          "SortOrder": 1
+        }
+      ]
+    }
+  ],
   "PropertyTypes": [],
   "Udi": "umb://document-type/53e4d47393104cd2a7810f64592f1cf6",
   "Dependencies": [
+    {
+      "Udi": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
     {
       "Udi": "umb://template/a63d580d0ba241bfb723cf8438d91712",
       "Ordering": true
