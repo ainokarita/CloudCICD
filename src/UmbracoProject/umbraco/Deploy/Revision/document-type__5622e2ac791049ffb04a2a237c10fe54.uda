@@ -6,7 +6,7 @@
     "umb://template/4f5fd21aba8d41ddbd2626f5a2f977c1"
   ],
   "HistoryCleanup": {},
-  "Icon": "icon-bomb color-pink",
+  "Icon": "icon-forms-file-excel color-pink",
   "Thumbnail": "folder.png",
   "Permissions": {
     "AllowedChildContentTypes": []
