@@ -8,6 +8,7 @@
   "HistoryCleanup": {},
   "Icon": "icon-forms-file-excel color-pink",
   "Thumbnail": "folder.png",
+  "Description": "this is from live",
   "Permissions": {
     "AllowedChildContentTypes": []
   },
