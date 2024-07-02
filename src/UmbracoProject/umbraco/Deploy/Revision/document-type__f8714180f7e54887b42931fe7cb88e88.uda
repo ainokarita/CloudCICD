@@ -28,6 +28,13 @@
           "SortOrder": 1
         },
         {
+          "Key": "529c44fb-75b7-413c-968b-61ca4b008943",
+          "Alias": "pickContent",
+          "DataType": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+          "Name": "Pick Content",
+          "SortOrder": 2
+        },
+        {
           "Key": "cabcc89d-d839-4c1f-a63c-066166ab6659",
           "Alias": "bodyText",
           "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
@@ -45,6 +52,10 @@
     },
     {
       "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
       "Ordering": true
     },
     {
