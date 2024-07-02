@@ -27,6 +27,7 @@ await app.BootUmbracoAsync();
 //security course addition for HSTS, excercise 4
 if (!app.Environment.IsDevelopment())
 {
+	builder.Services.AddCsp(nonceByteAmount: 32);
 	app.UseHsts();
 }
 
@@ -42,12 +43,12 @@ app.Use(async (context, next) =>
 });
 **/
 
-//CSP
+//CSP to replace cloickjacking and XSS config
 app.UseCsp(csp =>
 {
 	csp.ByDefaultAllow.FromSelf().From("packages.umbraco.org our.umbraco.org");
-	csp.AllowScripts.FromSelf().From("ajax.googleapis.com unpkg.com ajax.aspnetcdn.com cdnjs.cloudflare.com cdn.jsdelivr.net");
-	csp.AllowStyles.FromSelf().From("fonts.googleapis.com cdn.jsdelivr.net cdnjs.cloudflare.com cdn.linearicons.com").AllowUnsafeInline();
+	csp.AllowScripts.FromSelf().From("ajax.googleapis.com unpkg.com ajax.aspnetcdn.com cdnjs.cloudflare.com cdn.jsdelivr.net").AddNonce();
+	csp.AllowStyles.FromSelf().From("fonts.googleapis.com cdn.jsdelivr.net cdnjs.cloudflare.com cdn.linearicons.com").AddNonce();
 	csp.AllowImages.FromSelf().From("data: via.placeholder.com");
 	csp.AllowFonts.FromSelf().From("data: cdnjs.cloudflare.com fonts.gstatic.com cdn.linearicons.com");
 
