@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Joonasw.AspNetCore.SecurityHeaders" Version="5.0.0" />
     <PackageReference Include="octokit" Version="9.1.2" />
     <PackageReference Include="Umbraco.Cloud.Cms.PublicAccess" Version="13.0.0" />
     <PackageReference Include="Umbraco.Cloud.Identity.Cms" Version="13.0.0" />
